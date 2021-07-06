@@ -7,12 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<h1>Next page</h1>
-
-<a href="getstudent"><input type="submit" value = "Display"/></a>
-<a href="add-product"><input type="submit" value = "Add"/></a>
-<a href="delete-product"><input type="submit" value = "Delete"/></a>
-
+	<h1>Success</h1>
 </body>
 </html>
