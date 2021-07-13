@@ -1,0 +1,61 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.ctable {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.ctable thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.ctable tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.ctable tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.ctable tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.ctable tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.ctable tbody tr:hover {
+  background-color: gray;
+}
+
+.ctable th {
+  padding: 5px;
+  height: auto;
+  width: auto;
+  font-size: medium;
+}
+
+.ctable td {
+  padding: 5px;
+  height: auto;
+  width: auto;
+  font-size: medium;
+}
