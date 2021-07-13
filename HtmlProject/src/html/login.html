@@ -1,0 +1,51 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" href="../css/login.css" >
+
+</head>
+
+<body>
+
+    <div class="container">
+
+       
+        <div class="inner-container">
+            <form class="input-form">
+
+                <p>Enter email</p>
+                <input type="text" class="input-details" placeholder="Email" id="email" required/>
+
+                <p>Enter name</p>
+                <input type="text" class="input-details" placeholder="Name" id="name" required/>
+
+                <p>Enter DOB</p>
+                <input type="date" class="input-details" placeholder="DD/MM/YYYY" id="dob" required/>
+
+                <p>Enter phone no</p>
+                <input type="type" class="input-details" placeholder="Phone No" id="phone_no" required/>
+                
+                <div class="button-container">
+                    <!-- <input type="button" class="input-submit" value="Submit" onclick="validate()"> -->
+                    
+                    <input type="button" class="input-submit" value="Insert" onclick="validate()">
+                    <input type="submit" class="input-submit" value="Display by Name" onclick="display1()" id = "display_btn" >
+                    <input type="submit" class="input-submit" value="Display by All" onclick="display2()" id = "display_btn_all">
+                    <input type="button" class="input-submit" value="Sort" onclick="display_sort()" id="display_btn_sort"> 
+                </div>
+
+
+
+            </form>
+            <div class="inner-container" id="display-data">
+
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="../js/login.js" type="module"></script>
+</body>
+
+</html>
